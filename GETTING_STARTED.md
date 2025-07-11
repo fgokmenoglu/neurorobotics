@@ -1,7 +1,7 @@
 # KUKA Robotics Lab: Getting Started Guide
 Welcome to the team! This guide provides the essential information you need to get started with the KUKA LBR iiwa platform in our lab. Its purpose is to get you familiar with our hardware, software, and development workflow.
 
-![Placeholder for an image of the full robot arm in the lab.](assets/lab_setup.png)
+![KUKA Roborics Laboratory](assets/lab_setup.png)
 
 ---
 
@@ -30,8 +30,6 @@ Our setup consists of several key physical components. Familiarize yourself with
 Our development happens on a separate PC and is then transferred to the robot controller.
 
 ### KUKA Sunrise.Workbench
-![Placeholder for a screenshot of the Sunrise.Workbench IDE.](assets/Sunrise_Workbench.jpg)
+![Sunrise Workbench IDE](assets/sunrise_workbench.png)
 
 *(A paragraph explaining that Sunrise.Workbench is the Eclipse-based Integrated Development Environment (IDE) we use to write, compile, and manage our Java applications.)*
-
-### Git & GitHub
