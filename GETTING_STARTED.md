@@ -63,9 +63,9 @@ Sunrise Workbench is the integrated development environment for creating KUKA ro
 
 2. Navigate the Project Structure using the "Package Explorer" on the left-hand side. Here you can access all project files, including:
 
-  * Application source code (Java files).
+   * Application source code (Java files).
 
-  * Project-specific configurations and references.
+   * Project-specific configurations and references.
 
 3. View and Edit Code in the main editor window on the right. Selecting a file, such as SliderApplication.java, will display its contents for editing.
 
