@@ -63,9 +63,9 @@ Sunrise Workbench is the integrated development environment for creating KUKA ro
 
 2. Navigate the Project Structure using the "Package Explorer" on the left-hand side. Here you can access all project files, including:
 
- * Application source code (Java files).
+  * Application source code (Java files).
 
- * Project-specific configurations and references.
+  * Project-specific configurations and references.
 
 3. View and Edit Code in the main editor window on the right. Selecting a file, such as SliderApplication.java, will display its contents for editing.
 
@@ -91,9 +91,9 @@ The KUKA smartPad is the handheld terminal used to operate the robot directly.
  
 3. Stopping and Resetting:
 
- * Pressing the "stop" button on the smartPad will pause the currently running application.
+  * Pressing the "stop" button on the smartPad will pause the currently running application.
 
- * It is recommended to reset an application after it has been run, especially before starting a new one.
+  * It is recommended to reset an application after it has been run, especially before starting a new one.
 
 ### 3.5. Accessing and Reviewing Logged Data
 
