@@ -24,15 +24,18 @@ The KUKA Sunrise Cabinet serves as the "brain" of the LBR iiwa 7 R800, housing t
 The KUKA smartPAD serves as the primary human-machine interface for the LBR iiwa 7 R800, providing researchers with direct control capabilities through its intuitive touchscreen display and integrated safety features. This handheld teaching pendant allows operators to manually guide the robot, launch and monitor Java applications, access diagnostic information, and configure system parameters in real-time during experimental procedures. Critical safety elements include the three-position enabling switches located on the back of the device, which must be actively held in the middle position to permit robot motion, ensuring that any loss of operator control immediately halts all movement. Additionally, the prominent red emergency stop button on the front face provides instant system shutdown capability, cutting power to the robot drives and bringing all motion to an immediate stop when pressed. The smartPAD's combination of operational control and safety interlocks makes it indispensable for research environments where frequent manual intervention, application testing, and safety oversight are essential components of experimental protocols and system development workflows.
 </div>
 
+
 ![KUKA SmartPad](assets/smartpad-menu.png)
 
 ---
 
 ## 2. Software and Development Workflow
 
-Our development happens on a separate PC and is then transferred to the robot controller.
+The development happens on a separate host PC and is then transferred to the robot controller.
 
 ### KUKA Sunrise.Workbench
 ![Sunrise Workbench IDE](assets/sunrise_workbench.png)
 
-*(A paragraph explaining that Sunrise.Workbench is the Eclipse-based Integrated Development Environment (IDE) we use to write, compile, and manage our Java applications.)*
+<div align="justify">
+Sunrise.Workbench is KUKA's Eclipse-based Integrated Development Environment (IDE) that serves as the primary software platform for developing, compiling, and managing Java applications for the LBR iiwa 7 R800 robot system. Built on the robust Eclipse framework, this specialized IDE provides researchers with comprehensive tools for writing custom robot control algorithms, implementing sensor interfaces, and creating sophisticated automation routines using KUKA's Sunrise.OS API libraries. The development environment offers standard IDE features including syntax highlighting, code completion, debugging capabilities, and project management tools, while also incorporating robot-specific functionalities such as application deployment, real-time monitoring, and direct communication with the robot controller. Researchers can leverage Sunrise.Workbench to compile their Java applications locally before transferring them to the robot's Windows-based controller for execution, enabling iterative development cycles where code can be tested, refined, and deployed efficiently. This integrated approach streamlines the development workflow for haptic interface applications and experimental control systems, allowing researchers to focus on algorithm implementation rather than low-level robot communication protocols.
+</div>
