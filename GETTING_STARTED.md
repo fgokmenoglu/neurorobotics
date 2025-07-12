@@ -22,11 +22,11 @@ The KUKA Sunrise Cabinet serves as the "brain" of the LBR iiwa 7 R800, housing t
 ### The smartHMI (smartPAD)
 <div align="justify">
 The KUKA smartPAD serves as the primary human-machine interface for the LBR iiwa 7 R800, providing researchers with direct control capabilities through its intuitive touchscreen display and integrated safety features. This handheld teaching pendant allows operators to manually guide the robot, launch and monitor Java applications, access diagnostic information, and configure system parameters in real-time during experimental procedures. Critical safety elements include the three-position enabling switches located on the back of the device, which must be actively held in the middle position to permit robot motion, ensuring that any loss of operator control immediately halts all movement. Additionally, the prominent red emergency stop button on the front face provides instant system shutdown capability, cutting power to the robot drives and bringing all motion to an immediate stop when pressed. The smartPAD's combination of operational control and safety interlocks makes it indispensable for research environments where frequent manual intervention, application testing, and safety oversight are essential components of experimental protocols and system development workflows.
-<br/>
 </div>
 
+<div>
 ![KUKA SmartPad](assets/smartpad-menu.png)
-
+</div>
 ---
 
 ## 2. Software and Development Workflow
